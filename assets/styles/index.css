@@ -1,0 +1,31 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+}
+.char-line{
+    display: flex;
+}
+.char-frame{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.char-frame img{
+    width: 200px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+.char-frame a, .char-frame a:visited, .char-frame a:link, .char-frame a:hover, .char-frame a:active{
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: gray;
+    border-radius: 20px;
+    padding: 10px;
+}
